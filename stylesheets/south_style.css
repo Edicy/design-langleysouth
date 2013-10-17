@@ -1,0 +1,181 @@
+body {
+  border-top: 11px solid #ffd200;
+  background: #823a00 url("../images/langley_south_bg.gif?1") repeat-x top;
+  color: #fff;
+}
+
+a {
+  color: #FFD200;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,h2,h3 {
+  color: #FFD200;
+}
+
+img { border: none; }
+
+.colortext {
+  color: #FFD200;
+}
+
+#langmenu a {
+  color: #fff;
+}
+
+#langmenu a.active {
+  color: #ffd200;
+  font-weight: bold;
+}
+
+#search {
+  background: url('../images/south_search.gif?1') no-repeat;
+}
+
+#mainmenu {
+  background: #4d2200 url('../images/south_mainmenu.gif?1') repeat-x;
+}
+#mainmenu li {
+    border-bottom: 2px solid #5b2900;
+}
+#mainmenu a {
+	color:#ffd200;
+}
+#mainmenu li a {
+background: #4D2200;
+}
+
+#mainmenu li.hr {
+	background: url('../images/mainmenu_li.png?1') no-repeat top left;
+}
+
+ #mainmenu li.sub {
+	list-style:none;
+	background: url('../images/south_submenu_li.png?1') no-repeat 0px 16px;
+        border-bottom: 1px solid #5B2900;
+ }
+
+#bigtext {
+  background: url('../images/south_bigtext.gif?1') repeat-x left bottom;
+}
+
+#sitename {
+  color: #fff;
+}
+
+#sitename a {
+  color: #fff;
+}
+
+#search input {
+  color: #4e4142;
+}
+
+#mainmenu a {
+  font-size: 14px;
+}
+
+#sidetext {
+  border-bottom: 23px solid #4d2200;
+  color: #fff;
+}
+
+#bigtext {
+  color: #ffd200;
+}
+
+#bigtext a {
+  color: #ffd200;
+}
+
+#news table a {
+  color: #fff;
+}
+
+.colorbox {
+  background: #4D2200;
+}
+
+.news .first {
+  color: #FFD200;
+}
+
+
+.news .date {
+  color: #FFD200;
+}
+
+.date, #bigtext .blog-information .date {
+  color: #FFD200;
+}
+#bigtext .blog-information {
+    color: #4D2200;
+}
+
+.comment {
+  border-bottom: 2px solid #f0f0f0;
+  line-height: 1.3em;
+}
+
+#commentform .textbox {
+  border: 1px solid #878787;
+  color: #4e4142;
+}
+
+#commentform .submit {
+  background: #FFD200;
+}
+.gs-result {
+color: black;
+}
+#headerimg {
+background: url("../images/south_image.gif?1") no-repeat;
+width: 607px;
+height: 90px;
+}
+body .add-article {
+  margin-bottom: 15px;
+  display: inline-block !important;
+}
+
+/* article tags */
+.article-tags { margin-top: 20px; font-size: 14px; min-height: 1em;  }
+.edy-tag-input { outline: none; color: white; }
+div.edy-taglist-openarrow:after {
+    border-color: #ffffff transparent transparent !important;
+}
+.article-tag-icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: url('../images/tag-white.png') no-repeat center center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    margin-right: 7px;
+    margin-top: 3px;
+}
+.svg .article-tag-icon { background: url('../images/tag-white.svg') no-repeat center center; }
+.tagged-list-header {
+    font-size: 24px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background: none;
+}
+.header-tag-icon {
+    width: 24px;
+    height: 24px;
+    float: left;
+    background: url('../images/tag-big-white.png') no-repeat center center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    margin-top: 1px;
+    margin-right: 15px;
+}
+.svg .header-tag-icon { background: url('../images/tag-big-white.svg') no-repeat center center; }
+.tagged-list-header  a {border: none; text-decoration: none;}
+.tagged-list-header  a:hover { border-bottom: 1px solid #BEBEBE; }
+.article-tags .edy-taglist { margin-left: 25px; } 
