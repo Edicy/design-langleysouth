@@ -34,9 +34,9 @@
         
         <div id="content-inner">
           <div class="blog clearfix">
-           {% editable article.excerpt %}
+            <div data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
               <div style="padding-top:20px">
-              {% editable article.body %}
+              <div data-search-indexing-allowed="true">{% editable article.body %}</div>
               <div class="clearer"></div>
               
               {% if editmode %}

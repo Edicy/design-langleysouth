@@ -31,7 +31,7 @@
         <div id="bigtext" class="clearfix">{% content name="slogan" xpage="true" %}</div>
         
         <div id="content-inner">
-          <div id="content-left"{% for article in site.latest_articles limit:1 %} style="width: 323px;"{% endfor %} class="clearfix">
+          <div id="content-left"{% for article in site.latest_articles limit:1 %} style="width: 323px;"{% endfor %} class="clearfix" data-search-indexing-allowed="true">
             {% content %}
             <div class="clearer"></div>
           </div> <!-- //content-left -->

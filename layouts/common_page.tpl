@@ -32,7 +32,7 @@
         <div id="bigtext">{{ page.title }}</div>
         
         <div id="content-inner" class="clearfix">
-          {% content %}
+          <div data-search-indexing-allowed="true">{% content %}</div>
           <div class="clearer"></div>
 
           {% include "News" %}
