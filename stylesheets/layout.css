@@ -1,5 +1,7 @@
 .clearfix:after {
-  content: "."; display: block;height: 0;clear: both;font-size: 1px;line-height: 1px;visibility: hidden;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 html, body {
@@ -113,7 +115,6 @@ h3 {
     padding: 10px 0;
     text-align: center;
     width: 176px;
-    overflow: hidden;
   }
 
   
@@ -143,7 +144,6 @@ h3 {
     padding: 20px 0 20px 19px;
     list-style-type: none;
   width: 159px;
-  overflow: hidden;
   }
   
   #mainmenu ul{
@@ -215,7 +215,6 @@ h3 {
   #content-inner {
     padding-top: 15px;
     width: 607px;
-   overflow: hidden;
   }
   
   #content-left {
@@ -271,7 +270,6 @@ h3 {
     margin-top: 15px;
     padding: 15px 20px;
 	width:567px;
-	overflow:hidden;
   }
   
 /* news */

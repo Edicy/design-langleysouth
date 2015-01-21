@@ -1,5 +1,5 @@
 {% for article in site.latest_1_articles  %}
-<div class="colorbox">
+<div class="colorbox clearfix">
             <table class="news">
 {% for article in site.latest_1_articles %}
               <tr>

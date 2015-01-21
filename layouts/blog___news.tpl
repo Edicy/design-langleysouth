@@ -31,7 +31,7 @@
         <div id="headerimg"></div>
         <div id="bigtext">{{ page.title }}</div>
         
-        <div id="content-inner">
+        <div id="content-inner" class="clearfix">
         {% if tags %}
             <div class="blog tagged-list-header">
                 <div class="header-tag-icon"></div>
