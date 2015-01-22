@@ -21,7 +21,7 @@
        {% include "Mainmenu" %}
        {% include "MobileMenu" %}
        
-       <div id="sidetext" class="clearfix">
+       <div id="sidetext" class="clearfix content-hyphenate">
          {% content name="footer" xpage="true" %}
        </div> <!-- //sidetext -->
        
@@ -34,9 +34,9 @@
         
         <div id="content-inner" class="clearfix">
           <div class="blog clearfix">
-            <div data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
+            <div class="content-hyphenate" data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
               <div style="padding-top:20px">
-              <div data-search-indexing-allowed="true">{% editable article.body %}</div>
+              <div  class="content-hyphenate" data-search-indexing-allowed="true">{% editable article.body %}</div>
               <div class="clearer"></div>
               
               {% if editmode %}
@@ -66,7 +66,7 @@
           
           <div class="comments">
             {% for comment in article.comments %}
-            <div class="comment edy-site-blog-comment">
+            <div class="comment edy-site-blog-comment content-hyphenate">
               {{ comment.body_html }}
               <div class="comment-information">{{ comment.author }} <span class="date">{{ article.created_at | format_date:"long" }}</span> {% removebutton %}</div>
             </div> <!-- //comment -->

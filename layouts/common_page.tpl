@@ -21,7 +21,7 @@
        {% include "Mainmenu" %}
        {% include "MobileMenu" %}
        
-       <div id="sidetext" class="clearfix">
+       <div id="sidetext" class="clearfix content-hyphenate">
          {% content name="footer" xpage="true" %}
        </div> <!-- //sidetext -->
        
@@ -32,7 +32,7 @@
         <div id="bigtext">{{ page.title }}</div>
         
         <div id="content-inner" class="clearfix">
-          <div data-search-indexing-allowed="true">{% content %}</div>
+          <div class="content-hyphenate" data-search-indexing-allowed="true">{% content %}</div>
           <div class="clearer"></div>
 
           {% include "News" %}

@@ -4,6 +4,14 @@ body {
   color: #fff;
 }
 
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 a {
   color: #FFD200;
   text-decoration: none;
