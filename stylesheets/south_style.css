@@ -226,3 +226,10 @@ div.edy-taglist-openarrow:after {
 #wrap .edy-fe-active .edy-fe-field:hover {
   outline-color: rgba(255,255,255,.1);
 }
+
+#content .edy-btn-removecomment {
+  position: relative;
+  top: 2px;
+  color: rgba(255,255,255,1) !important;
+  line-height: 0 !important;
+}

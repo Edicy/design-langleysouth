@@ -8,7 +8,7 @@
 
 <body>
 	
-	<div id="wrap">
+	<div id="wrap" class="content-hyphenate">
    
    {% include "Langmenu" %}
    
@@ -21,7 +21,7 @@
        {% include "Mainmenu" %}
        {% include "MobileMenu" %}
        
-       <div id="sidetext" class="clearfix content-hyphenate">
+       <div id="sidetext" class="clearfix">
          {% content name="footer" xpage="true" %}
        </div> <!-- //sidetext -->
        
@@ -45,7 +45,7 @@
           {% addbutton class="add-article" %}
           
           {% for article in articles %}
-          <div class="blog clearfix content-hyphenate">
+          <div class="blog clearfix">
             <h1><a href="{{ article.url }}">{{ article.title }}</a></h1>
             <div class="blog-information">{{ article.author.name }} <span class="date">{{ article.created_at | format_date:"long" }}</span></div>
             {{ article.excerpt }} <a href="{{ article.url }}">{{"read_more"|lc}}</a>, <a href="{{ article.url }}#comments">{{ "comments_for_count" | lc }}: {{ article.comments_count }}</a>
