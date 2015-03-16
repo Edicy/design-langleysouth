@@ -104,21 +104,9 @@
     },
     {
       "content_type": "image/gif",
-      "file": "images/langley_south_bg_medium.gif",
-      "kind": "images",
-      "filename": "langley_south_bg_medium.gif"
-    },
-    {
-      "content_type": "image/gif",
       "file": "images/south_bigtext.gif",
       "kind": "images",
       "filename": "south_bigtext.gif"
-    },
-    {
-      "content_type": "image/gif",
-      "file": "images/south_bigtext_medium.gif",
-      "kind": "images",
-      "filename": "south_bigtext_medium.gif"
     },
     {
       "content_type": "image/gif",
@@ -128,21 +116,9 @@
     },
     {
       "content_type": "image/gif",
-      "file": "images/south_image_medium.gif",
-      "kind": "images",
-      "filename": "south_image_medium.gif"
-    },
-    {
-      "content_type": "image/gif",
       "file": "images/south_mainmenu.gif",
       "kind": "images",
       "filename": "south_mainmenu.gif"
-    },
-    {
-      "content_type": "image/gif",
-      "file": "images/south_mainmenu_medium.gif",
-      "kind": "images",
-      "filename": "south_mainmenu_medium.gif"
     },
     {
       "content_type": "image/gif",
@@ -151,22 +127,10 @@
       "filename": "south_search.gif"
     },
     {
-      "content_type": "image/gif",
-      "file": "images/south_search_medium.gif",
-      "kind": "images",
-      "filename": "south_search_medium.gif"
-    },
-    {
       "content_type": "image/png",
       "file": "images/south_submenu_li.png",
       "kind": "images",
       "filename": "south_submenu_li.png"
-    },
-    {
-      "content_type": "image/png",
-      "file": "images/south_submenu_li_medium.png",
-      "kind": "images",
-      "filename": "south_submenu_li_medium.png"
     },
     {
       "content_type": "image/png",
